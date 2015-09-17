@@ -7,4 +7,6 @@ include
 lib
 local
 parts
+products
+src
 var
