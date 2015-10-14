@@ -71,3 +71,12 @@ simply invoke ``bin/buildout`` with the developer configuration::
 This should result in the activation and the checkout all development
 packages, and should be done for general development of extensions to
 this project.
+
+Coding standards
+~~~~~~~~~~~~~~~~
+
+This will need to be written up as a separate document, but for now
+the following are the core guidelines:
+
+- Aim for 100% test coverage on release
+- PEP8 compliance (use flake8 supplied with build scripts)
