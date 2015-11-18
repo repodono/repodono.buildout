@@ -78,5 +78,9 @@ Coding standards
 This will need to be written up as a separate document, but for now
 the following are the core guidelines:
 
-- Aim for 100% test coverage on release
+- Aim for 100% test coverage during development; tests are counted.
+- Require 100% test coverage on release
 - PEP8 compliance (use flake8 supplied with build scripts)
+- Commit messages must follow the 50/72 format: first line max 50
+  characters, then two new line characters, then a descriptive message
+  on what was done with lines no longer than 72 characters.
