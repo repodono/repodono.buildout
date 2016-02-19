@@ -41,7 +41,7 @@ commands that should be invoked in the shell follows::
     $ git clone https://github.com/repodono/repodono.buildout.git
     $ cd repodono.buildout
     $ virtualenv .
-    $ bin/pip install zc.buildout
+    $ bin/pip install -U zc.buildout  # install updated deps
     $ bin/buildout
 
 Wait as buildout downloads and installs the framework and application
@@ -75,12 +75,4 @@ this project.
 Coding standards
 ~~~~~~~~~~~~~~~~
 
-This will need to be written up as a separate document, but for now
-the following are the core guidelines:
-
-- Aim for 100% test coverage during development; tests are counted.
-- Require 100% test coverage on release
-- PEP8 compliance (use flake8 supplied with build scripts)
-- Commit messages must follow the 50/72 format: first line max 50
-  characters, then two new line characters, then a descriptive message
-  on what was done with lines no longer than 72 characters.
+Please refer to ``CONTRIBUTE.rst``
